@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/aviabiletsFragment">
+
+    <fragment
+        android:id="@+id/aviabiletsFragment"
+        android:name="com.example.aviasales.ui.aviabilets.AviabiletsFragment"
+        android:label="AviabiletsFragment"
+        tools:layout="@layout/fragment_aviabilets" />
+    <fragment
+        android:id="@+id/hotelsFragment"
+        android:name="com.example.aviasales.ui.hotels.HotelsFragment"
+        android:label="HotelsFragment"
+        tools:layout="@layout/fragment_hotels" />
+    <fragment
+        android:id="@+id/shorterFragment"
+        android:name="com.example.aviasales.ui.shorter.ShorterFragment"
+        android:label="ShorterFragment"
+        tools:layout="@layout/fragment_shorter" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.aviasales.ui.profile.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/subscriptionsFragment"
+        android:name="com.example.aviasales.ui.subscriptions.SubscriptionsFragment"
+        android:label="SubscriptionsFragment"
+        tools:layout="@layout/fragment_subscriptions" />
+</navigation>

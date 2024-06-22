@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aviasales</string>
+    <string name="soon_stub">Soon!</string>
+    <string name="aviabilets">Авиабилеты</string>
+    <string name="hotels">Отели</string>
+    <string name="shorter">Короче</string>
+    <string name="subscriptions">Подписки</string>
+    <string name="profile">Профиль</string>
+    <string name="cheap_aviabilets">Поиск дешевых авиабилетов</string>
+    <string name="departure_hint">Откуда - Москва</string>
+    <string name="landing_hint">Куда - Турция</string>
+    <string name="musical_flight">Музыкально Отлететь</string>
+    <string name="from">от</string>
+</resources>
